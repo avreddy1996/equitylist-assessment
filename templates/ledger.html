@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Investor Ledger</title>
+  <!-- viewport meta -->
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <!-- link css file -->
+  <link rel="stylesheet"
+        href="./styles.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Your Investing Account</h1>
+    <div>Change dataset here
+      <select id="data-changer">
+      <option value="simple">Simple</option>
+      <option value="duplicate">Duplicate</option>
+      <option value="complicated">Complicated</option>
+    </select>
+    </div>
+  </div>
+  <div class="balance">
+    <span id="balance" class="price">$0</span>
+    Balance 
+    <span class="small">
+      (<span id="ledger-start">08/19/2014</span> - <span id="ledger-end">10/15/201</span>)
+    </span>  
+  </div>
+
+  <div class="content">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th class="amount">Amount</th>
+          <th class="amount">Balance</th>
+        </tr>
+      </thead>
+
+      <tbody id="ledger-body">
+        <!-- Table code goes here dynamically -->
+      </tbody>
+    </table>
+  </div>
+  <!-- link js file -->
+  <script src="./scripts.js"></script>
+</body>
+
+</html>

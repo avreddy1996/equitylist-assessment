@@ -1,0 +1,6 @@
+Write your email to Dr. Horrible here.
+
+Steps to debug the issue 
+ - checking with user if he has recieved confirmation email upon wiring the money
+ - if yes I'll debug into the application logs if any transaction has been reverted or if there are any hidden flags to hide the transaction
+ - if not I'll check the false case scenarios like in which phase it failed to create the transaction and try creating the same transaction and reproducing the issue to debug the root cause

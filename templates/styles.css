@@ -1,0 +1,56 @@
+html,body {
+    font-family: "helvetica neue", helvetica, arial, freesans, "liberation sans", "numbus sans l", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+  }
+
+
+
+  table {
+    width: 100%;
+  }
+  .header{
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance{
+    padding: 2rem 8rem;
+    background-color: rgb(218, 222, 226);
+  }
+  .balance .price{
+    display: block;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .balance .small {
+    /* font-size: 0.5em; */
+    font-weight: 300;
+    color: #999;
+  }
+  .content {
+    padding: 2rem 8rem;
+    text-align: left;
+  }
+  .content table{
+    border-collapse: collapse;
+  }
+  .content td, .content th {
+    padding: 1.5rem 0;
+    border: 1px solid #e6e6e6;
+    border-left: 0;
+    border-right: 0;
+    font-weight: 400;
+  }
+  .content .amount{
+    text-align: right;
+  }
+  .content .description{
+    text-transform: capitalize;
+  }

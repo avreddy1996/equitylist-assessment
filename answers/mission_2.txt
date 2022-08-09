@@ -1,0 +1,12 @@
+Mission 2: UX for depositing & withdrawing funds (writing, UX & UI design)
+A bank account is more than just a list of transactions. To be functional, users should be able to deposit and withdraw funds.
+
+Description:
+
+ - A button can be added on top of the ledger to pewrform a transaction which can be either deposit or withdrawl
+ - New page with provision for both deposit and withdrawl is provide along with a form of other details like amount and description for that
+ - Existing balance should be displayed on this page top and after editing amount column, remaining balnce that will be after this transaction should be displed on the bottom
+ - Buttons to cancel the transaction and to complete the transaction both should be present
+ - there should be form validations like amount should be a positive intiger 
+ - On completing the transaction it should be redirected back to ledgers page and transation should be recorded in the ledger screen already
+ 

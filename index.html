@@ -1,0 +1,57 @@
+<!-- html mock code -->
+<html>
+<head>
+<title>Assessment</title>
+<!-- viewport meta tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    html,body {
+    font-family: "helvetica neue", helvetica, arial, freesans, "liberation sans", "numbus sans l", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .header{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    button{
+        border: 1px solid #969696;
+        background-color: #fff;
+        color: #000;
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    button:hover{
+        background-color: #969696;
+        color: #fff;
+    }
+    button a{
+        color: inherit;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Assesment links</div>
+        <div class="buttons-group">
+            <button><a href="/website">Mission 1</a></button>
+            <button><a href="/answers/mission_2.txt">Mission 2</a></button>
+            <button><a href="/answers/mission_3_2.txt">Mission 3</a></button>
+        </div>
+    </div>
+</body>
+</html>
