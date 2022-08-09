@@ -64,7 +64,7 @@ function getItemDescription(item) {
         ledgerEnd.innerText = (new Date(ledgerData[0].date)).toLocaleDateString()
     }
     function getData(type) {
-        fetch(`./data/${type}_ledger.json`)
+        fetch(`./../data/${type}_ledger.json`)
           .then((res) => res.json())
           .then((data) => {
             ledgerData = transformData(data);
